@@ -1,0 +1,53 @@
+.Movies{
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;       
+        justify-content: space-between;
+        gap: 5px;
+        width: 100%; 
+        scrollbar-width: thin;
+        scrollbar-color: transparent transparent; 
+        
+      
+    }
+    
+    
+    .Movies::-webkit-scrollbar {
+      width: 5px; /* Ancho del scroll */
+    }
+    
+    .Movies::-webkit-scrollbar-thumb {
+      background-color: transparent; /* Color del scroll (transparente para ocultarlo) */
+    }
+    
+    .Movies::-webkit-scrollbar-track {
+      background-color: rgb(18, 18, 18); /* Color de fondo del scroll (transparente para ocultarlo) */
+    }
+    
+
+li{
+    width: 20rem;
+    display: flex;
+    align-items: center
+    
+}
+img{
+    object-fit: cover;
+    height: 10rem;
+}
+span {
+  font-size: 10rem;
+  font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+  -webkit-text-stroke: 3px #595959;
+  color: black;
+  font-weight:bolder;
+  overflow: visible;
+ 
+  margin-right: -30px;
+}
+
+h2{
+  color: white;
+}
+
+

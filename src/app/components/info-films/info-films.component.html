@@ -1,0 +1,7 @@
+<p>{{infoAllFilms.section}}</p>
+
+<div class="Movies">
+    <ng-container *ngFor="let film of infoAllFilms.films">
+        <app-films [infoFilm]="film"></app-films>
+    </ng-container>
+</div>

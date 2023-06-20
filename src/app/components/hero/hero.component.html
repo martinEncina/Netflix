@@ -1,0 +1,11 @@
+<section>
+    <h2>{{Top10.section}}</h2>
+    <ul class="Movies rowContainer slider">
+        <ng-container *ngFor="let film of Top10.films; let i = index;">
+            <li>     
+                <span>{{i+1}}</span>
+                <img src="{{film.image}}" alt="{{film.title}}">  
+            </li>
+        </ng-container>
+    </ul>    
+</section>

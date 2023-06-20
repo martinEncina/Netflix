@@ -1,0 +1,32 @@
+.Movies{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+   
+    justify-content: space-between;
+    gap: 5px;
+    width: 100%; 
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent; 
+    max-height: 20rem;
+  
+}
+
+
+.Movies::-webkit-scrollbar {
+  width: 5px; /* Ancho del scroll */
+}
+
+.Movies::-webkit-scrollbar-thumb {
+  background-color: transparent; /* Color del scroll (transparente para ocultarlo) */
+}
+
+.Movies::-webkit-scrollbar-track {
+  background-color: transparent; /* Color de fondo del scroll (transparente para ocultarlo) */
+}
+p{
+    color: white;
+}
+
+
+
